@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+
+
+body {
+    background-image: url(https://news.microsoft.com/wp-content/uploads/prod/sites/41/2015/02/Windows-XP_Bliss.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: 10%;
+    grid-gap: 20%;
+    margin: 5px;
+}
+
+.contenido div {
+    text-align: center;
+}
+
+.contenido div p {
+    font-size: 25px;
+    color: white;
+    margin: 0px;
+}
+
+.contenido div a {
+    text-decoration: none;
+}
+
+.contenido img {
+    width: 70px;
+}
